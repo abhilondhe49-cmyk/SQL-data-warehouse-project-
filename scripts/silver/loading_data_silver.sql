@@ -1,5 +1,16 @@
 /*
 LOADING THE CLEANED DATA INTO THE SILVER LAYER FROM BRONZE LAYER
+Quality Checks
+Script Purpose:
+This script performs various quality checks for data consistency, accuray, and stadardization across
+ the 'silver' schema. It includes checks for:
+- NULL or Duplicate values
+-Unwanted spaces and consistenncy
+-Invalid date range and orders
+- Data consistency between fields
+Usage notes:
+	- Run these checks after data loading silver layer
+	- Investigate and resolve any discrepancies found during the checks
 */
 
 --Loading cleaned data to silver.crm_cust_info from bronze.crm_cust_info 
