@@ -8,10 +8,11 @@ This script performs various quality checks for data consistency, accuray, and s
 -Unwanted spaces and consistenncy
 -Invalid date range and orders
 - Data consistency between fields
-Usage notes:
+Usage notes::
 	- Run these checks after data loading silver layer
 	- Investigate and resolve any discrepancies found during the checks
 */
+----
 
 --Loading cleaned data to silver.crm_cust_info from bronze.crm_cust_info 
 EXEC silver.load_silver
